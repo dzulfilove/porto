@@ -1570,7 +1570,7 @@ body a{
 
 .company .company-item{
     margin-top: 0.5rem;
-    width: 50%;
+    width: 60%;
     color: var(--gray-dark);
     font-size: 8px;
     font-weight: 400;
@@ -1579,7 +1579,7 @@ body a{
 .footer-section .about{
     display:flex;
     justify-content: flex-end;
-    width: 55%;
+    width: 60%;
     height: 50%;
 
 }
@@ -1616,7 +1616,7 @@ body a{
 .copyright{
     position: relative;
     margin-top: 2rem;
-    top: 15rem;
+    top: 16rem;
     display: flex;
     justify-content: center;
     width: 100%;
