@@ -1208,10 +1208,14 @@ body a{
     gap: 1rem;
 }
 
+#hide{
+    display: none;
+}
+
 .penyakit .daftar-penyakit .penyakit-item .penyakit-item-content{
    align-items: center;
-    width: 125px;
-    height: 125px;
+    width: 95px;
+    height: 95px;
     padding: 4px;
     border-radius: 8px;
     gap: 4px;
@@ -1246,7 +1250,7 @@ body a{
 /* Dokter Rekomendasi */
 .dokter-rekomendasi{
     position: relative;
-    top: 30rem;
+    top: 11rem;
     margin-top: 2rem;
     display: flex;
     justify-content: space-between;
@@ -1390,7 +1394,7 @@ body a{
 
     .artikel {
         position: relative;
-        top: 31rem;
+        top: 13rem;
         margin-top: 2rem;
         display: flex;
         justify-content: space-between;
@@ -1538,7 +1542,7 @@ body a{
 .footer-section{
     position: relative;
     margin-top: 2rem;
-    top: 32rem;
+    top: 17rem;
     display: flex;
     justify-content: space-between;
     height: 6rem;
