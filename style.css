@@ -1388,7 +1388,6 @@ body a{
 
 .dokter-rekomendasi-content .card .card-ket-item2 a:hover{
     background-color: var(--white);
-    display: none;
     color: var(--teal);
     transition: 0.3s;
 }
@@ -1398,7 +1397,7 @@ body a{
 
     .artikel {
         position: relative;
-        top: 13rem;
+        top: 11rem;
         margin-top: 2rem;
         display: flex;
         justify-content: space-between;
@@ -1546,7 +1545,7 @@ body a{
 .footer-section{
     position: relative;
     margin-top: 2rem;
-    top: 17rem;
+    top: 13rem;
     display: flex;
     justify-content: space-between;
     height: 6rem;
@@ -1556,7 +1555,7 @@ body a{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     height: 50%;
 
 }
@@ -1580,7 +1579,7 @@ body a{
 .footer-section .about{
     display:flex;
     justify-content: flex-end;
-    width: 50%;
+    width: 55%;
     height: 50%;
 
 }
@@ -1617,7 +1616,7 @@ body a{
 .copyright{
     position: relative;
     margin-top: 2rem;
-    top: 30rem;
+    top: 15rem;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -1634,6 +1633,7 @@ body a{
 /* Navbar */
 
 #menu{
+    margin-right: 2rem;
     display: flex;
     width: 35%;
     justify-content: space-between;
