@@ -5,11 +5,13 @@ const navbarInfo = document.getElementById("info")
 const sideInfo = document.getElementById("info-side")
 const close = document.getElementById("close")
 const burgerMenu = document.getElementById("burger")
+const background = document.getElementById("background")
 
 const sideBar= document.getElementById("side")
 burgerMenu.addEventListener("click", function(e) {
     e.preventDefault();
     side.classList.toggle("show")
+    background.classList.toggle("show-bg")
     })
 
 if (!loggedInUser) {
