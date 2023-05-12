@@ -1132,6 +1132,10 @@ body a{
 /* Hero */
 .hero{
     background-color: #6283a7;
+    background: url(image/ban.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding:0.5rem;
     width: 100%;
     height: 9rem;
@@ -1514,7 +1518,7 @@ body a{
       }
     .lihat-semua .red{
         margin: 0;
-        font-size: 8px;
+        font-size: 10px;
         font-weight: 700;
         color: var(--teal);
       }
@@ -1671,7 +1675,6 @@ body a{
     flex-direction: column;
     align-items: center;
     transition: 0.4s ease-in-out;
-    z-index: 9999;
 }
 
 .nav-item-side{
@@ -1688,7 +1691,7 @@ body a{
 .btn-primary
 {
     margin: 0;
-    font-size: 12px;
+    font-size: 10px;
     width: 128px;
     height: 28px;
 }
@@ -1697,7 +1700,7 @@ body a{
 {
     margin: 0;
 
-    font-size: 12px;
+    font-size: 14px;
     width: 128px;
     height: 28px;
 }
@@ -1751,30 +1754,12 @@ body a{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 12px;
 }
 
 .show{
     right: 0;
     transition: 0.4s ease-in-out;
 }
-
-.background{
-    display: none;
-    position: absolute;
-    z-index: 9;
-    transition: 0.5s ease-in;
-    top: 4.5rem;
-    height: 100%;
-    width: 100%;
-    background-color: #fff;
-}
-
-.show-bg{
-    background-color: rgba(0,0,0,0.2);
-    transition: 0.4s ease-in;
-}
-
 }
 
 
